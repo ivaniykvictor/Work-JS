@@ -4,7 +4,7 @@ const tvShow = [
     "Світське життя", 
     "Суперінтуїція", 
     "Голос країни", 
-    "Хто зверху"
+    "Хто зверху",
 ];
 tvShow.push(prompt("Please add a new show"));
 const tvShowСomma = tvShow.join();
