@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Currency calculator</h5>
+                        <div class="form-group">
+                            <label for="currency">Select a currency</label>
+                            <select class="form-control" id="currency">
+                                <option id="usd" value="27">USD</option>
+                                <option id="eur" value="29">EUR</option>
+                                <option id="rub" value="3">RUB</option>
+                                <option id="bgn" value="45">BGN</option>
+                                <option id="ron" value="8">RON</option>
+                            </select>
+                        </div>
+                        <h6 id="currencyValue"></h6>
+                        <div class="form-group">
+                            <label for="amount"></label>
+                            <input type="text" class="form-control" id="amount" placeholder="Enter the amount">
+                        </div>
+                        <h6 id="result"> </h6>
+                        <button class="btn btn-primary" id="calculateButton">Calculate</button>
+                     
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+<script src="/js/main.js"></script>
+    
+</body>
+</html>
