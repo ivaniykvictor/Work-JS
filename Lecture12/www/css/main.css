@@ -177,7 +177,7 @@ a:hover {
   margin-left: 40px;
 }
 
-.header__contact {
+.header__contact-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,14 +206,14 @@ a:hover {
   text-align: center;
 }
 
+.header__contact-social-item i {
+  color: #404040;
+}
+
 .header__contact-social-item :hover {
   color: white;
   background-color: #57ccc3;
   border-radius: 50%;
-}
-
-.header__contact-social {
-  color: #404040;
 }
 
 .header__extra {
@@ -405,10 +405,6 @@ a:hover {
 .appointment__intro-input:hover {
   border: solid 2px #57ccc3;
   text-decoration: none;
-}
-
-.appointment__intro-select {
-  color: #404040;
 }
 
 .advantages {
@@ -663,6 +659,11 @@ a:hover {
   padding-left: 34px;
   outline: none;
   background-color: transparent;
+  -webkit-appearance: none;
+}
+
+.subscribe__form-input::-webkit-input-placeholder {
+  color: white;
 }
 
 .footer {

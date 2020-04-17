@@ -71,7 +71,7 @@
     margin-left: 40px;
 }
 
-.header__contact {
+.header__contact-social {
     display: flex;
     list-style: none;
     align-items: center;
@@ -93,15 +93,14 @@
         line-height: 34px;
         text-align: center; 
     }
+    i {
+        color: #404040;
+    }
     :hover {
         color: white;
         background-color: $primarycolor;
         border-radius: 50%;
     }
-}
-
-.header__contact-social {
-    color: #404040; 
 }
 
 .header__extra {
