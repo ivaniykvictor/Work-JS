@@ -58,22 +58,22 @@
                 <a href="#" class="button--red" >Make up Appointment</a>
             </div> 
             
-            <div class="header__contact">
+            <div>
                <nav >
-                   <ul class="header__contact-social">
+                   <ul class="header__contact">
                        <li class="header__contact-social-item">
                             <a href="#">
-                                <i class="fab fa-instagram"></i>
+                                <i class="header__contact-social fa-instagram"></i>
                             </a>
                         </li>
                         <li class="header__contact-social-item">
                             <a href="#">
-                                <i class="fab fa-facebook-f"></i>
+                                <i class="header__contact-social fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="header__contact-social-item">
                             <a href="#">
-                                <i class="fab fa-twitter"></i>
+                                <i class="header__contact-social fa-twitter"></i>
                             </a>
                         </li>
                    </ul>
@@ -272,23 +272,23 @@
                                 <input class="appointment__intro-input" type="email" placeholder="Your E-mail" required>
                                 <input class="appointment__intro-input" type="tel" placeholder="Your Phone" required>
                                 
-                                <select class="appointment__intro-input" name="speciality" id="speciality">
-                                    <option value="speciality">Speciality</option>
-                                    <option value="speciality1">Speciality1</option>
-                                    <option value="speciality2">Speciality2</option>
-                                    <option value="speciality3">Speciality3</option>
-                                    <option value="speciality4">Speciality4</option>
-                                    <option value="speciality5">Speciality5</option>
+                                <select class="appointment__intro-input" name="speciality">
+                                    <option disabled selected value="Speciality">Speciality</option>
+                                    <option value="Speciality1">Speciality1</option>
+                                    <option value="Speciality2">Speciality2</option>
+                                    <option value="Speciality3">Speciality3</option>
+                                    <option value="Speciality4">Speciality4</option>
+                                    <option value="Speciality5">Speciality5</option>
                                 </select>
                                 <select class="appointment__intro-input" name="doctor" >
-                                    <option value="doctor">Doctor</option>
-                                    <option value="doctor1">Doctor1</option>
-                                    <option value="doctor2">Doctor2</option>
-                                    <option value="doctor3">Doctor3</option>
-                                    <option value="doctor4">Doctor4</option>
-                                    <option value="doctor5">Doctor5</option>
+                                    <option disabled selected value="Doctor">Doctor</option>
+                                    <option value="Doctor1">Doctor1</option>
+                                    <option value="Doctor2">Doctor2</option>
+                                    <option value="Doctor3">Doctor3</option>
+                                    <option value="Doctor4">Doctor4</option>
+                                    <option value="Doctor5">Doctor5</option>
                                 </select>
-                                <input class="appointment__intro-input" type="text" placeholder="Data" required>
+                                <input class="appointment__intro-input" type="text" placeholder="Date" required>
                                 <button class="button--red-long">Make an Appointment</button>
                             </div>
                         </form>
@@ -574,7 +574,7 @@
             <div class="row">
                 <div class="col">
                     <div class="subscribe__form-container">
-                        <form action="#" id="subscribe__form" class="subscribe__form">
+                        <form action="#" id="subscribeForm" class="subscribe__form">
                             <input class="subscribe__form-input" type="email" placeholder="Your email" required>
                             <button class="button--red-subscribe">subscribe</button>
                         </form>

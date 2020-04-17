@@ -21,7 +21,7 @@
     margin-bottom: 100px;
 }
 
-.subscribe__form-input {
+.subscribe__form-input{
     width: calc(100% - 150px);
     height: 46px;
     border: solid 2px #e6ebf1;
@@ -29,5 +29,6 @@
     padding-left: 34px;
     outline: none;
     background-color: transparent;
+    -webkit-appearance: none;
 }
 

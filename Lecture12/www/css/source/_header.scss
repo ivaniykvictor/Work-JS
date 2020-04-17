@@ -73,11 +73,6 @@
 
 .header__contact {
     display: flex;
-    align-items: center;
-}
-
-.header__contact-social {
-    display: flex;
     list-style: none;
     align-items: center;
     margin-top: 20px;
@@ -105,7 +100,7 @@
     }
 }
 
-.fab {
+.header__contact-social {
     color: #404040; 
 }
 

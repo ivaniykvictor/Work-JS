@@ -93,12 +93,16 @@
     font-weight: 400;
     outline: none;
     font-family: $fonttext;
+    -webkit-appearance: none;
+    font-style: italic;
 }
-   
 
+   
 .appointment__intro-input:hover {
     border: solid 2px $primarycolor;
+    text-decoration: none;
 }
+
 
 
 
