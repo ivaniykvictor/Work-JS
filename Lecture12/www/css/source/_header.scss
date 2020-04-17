@@ -109,31 +109,48 @@
     color: #404040; 
 }
 
-// .header__extra {
-//     display: flex;
-//     align-items: center;
-// }
+.header__extra {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
 
-// .header__extra-time-work {
-//     font-size: 15px;
-//     font-weight: 600;
-//     color: #404040;
-//     margin-right: 26px;
-   
-// }
+.header__extra-time-work {
+    font-size: 15px;
+    font-weight: 600;
+    color: #404040;
+    margin-right: 26px;
+}
 
-// .header__extra-phone {
-//     height: 46px;
-//     border-radius: 20px;
-//     background: #57ccc3;
-//     padding-left: 40px;
-//     padding-right: 36px;
-//     line-height: 46px;
-//     font-size: 14px;
-//     font-weight: 600;
-//     color: #fff;
-//     margin-right: -40px;
-// }
+.header__extra-phone {
+    height: 46px;
+    border-radius: 20px;
+    background: #57ccc3;
+    padding-left: 40px;
+    padding-right: 36px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: -40px;
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    .header__extra-time-work {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header__extra-phone {
+        display: none;
+    }
+}
+
+
+
 
 
 
