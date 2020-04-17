@@ -1,0 +1,106 @@
+.appointment {
+    background-color: white;
+    padding-bottom: 100px;
+    
+}
+
+.appointment__section {
+    padding-top: 100px;
+
+
+    &-subtitle {
+        font-size: 16px;
+        font-family: montserrat,sans-serif;
+        color: #a6abb2;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+}
+
+.appointment__section-title {
+    color: #404040;
+    
+    
+    h2 {
+        font-size: 48px;
+        font-family: montserrat,sans-serif;
+        font-weight: 400;
+    }
+}
+
+.appointment__section-text{
+    color: #828282;
+    font-size: 14px;
+    line-height: 2.4;
+    font-weight: 500;
+    font-family: montserrat,sans-serif;
+    margin-top: 30px;
+}
+
+.appointment__melistone {
+    margin-top: 85px;
+}
+
+.appointment__melistone-counter {
+    color: $primarycolor;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.appointment__melistone-text {
+    color: #404040;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.appointment__intro-container {
+    width: 100%;
+    background: #fff;
+    padding-left: 33px;
+    padding-right: 34px;
+    padding-bottom: 63px;
+    padding-top: 136px;
+    box-shadow: 0 25px 38px rgba(0,0,0,.2);
+    margin-top: 100px;
+}
+
+.appointment__intro-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 80px;
+    background-color: $primarycolor;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80px;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.appointment__intro-input {
+    width: calc((100% - 15px)/2);
+    height: 62px;
+    border: solid 2px #e6ebf1;
+    padding-left: 25px;
+    margin-bottom: 18px;
+    background-color: transparent;
+    color: 404040;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    font-family: $fonttext;
+}
+   
+
+.appointment__intro-input:hover {
+    border: solid 2px $primarycolor;
+}
+
+
+
+
+

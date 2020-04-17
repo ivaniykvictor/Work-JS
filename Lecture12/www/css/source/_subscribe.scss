@@ -1,0 +1,33 @@
+.subscribe {
+    background-image: url(/css/img/newsletter.jpg);
+    background-position: -250px;
+}
+
+.subscribe__title {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.subscribe__form {
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 54px;
+    margin-bottom: 100px;
+}
+
+.subscribe__form-input {
+    width: calc(100% - 150px);
+    height: 46px;
+    border: solid 2px #e6ebf1;
+    color: white;
+    padding-left: 34px;
+    outline: none;
+    background-color: transparent;
+}
+

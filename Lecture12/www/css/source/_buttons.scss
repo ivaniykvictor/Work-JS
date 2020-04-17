@@ -1,0 +1,93 @@
+.button--red {
+    display: inline-block;
+    background-color: #fd556d;
+    height: 46px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 42px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button--red:hover {
+    background-color: transparent;
+    border-color: #fd556d;
+    color: #fd556d;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.button--aqua {
+    display: inline-block;
+    background-color: none;
+    height: 46px;
+    border: 2px solid #57ccc3;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 42px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #57ccc3;
+    cursor: pointer;
+}
+
+.button--aqua:hover {
+    background-color: #57ccc3;
+    color: white;
+}
+
+.button--red-long {
+    display: inline-block;
+    background-color: #fd556d;
+    height: 46px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 42px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button--red-long:hover {
+    background-color: transparent;
+    border-color: #fd556d;
+    color: #fd556d;
+}
+
+.button--red-subscribe {
+    display: inline-block;
+    background-color: #fd556d;
+    height: 46px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 42px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+   margin-left: -30px;
+}

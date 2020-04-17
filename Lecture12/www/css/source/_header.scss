@@ -1,0 +1,140 @@
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 117px;
+    padding-left: 100px;
+    padding-right: 102px;
+}
+
+.header__block-id {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    padding-left: 100px;
+    padding-right: 102px;
+    font-family: $fonttext;
+    background-color: red;
+}
+
+.header__block-logo-subtitle {
+    color: #353535;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: .75;
+}
+
+.header__block-logo-title {
+    color: $primarycolor;
+}
+
+.header__block-logo-text {
+    text-decoration: none;
+    color: #969696;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.header__menu-link {
+    display: inline-block;
+    padding-right: 30px;
+    text-decoration: none;
+    color: #404040;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: $fonttext;
+}
+
+.header__menu-link:hover {
+    color: $primarycolor;
+}
+
+.header__button {
+    margin-right: -80px;
+    margin-left: 40px;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-social {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.header__contact-social-item {
+    display: inline-block;
+    margin: 8px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #e6ebf1;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 34px;
+        text-align: center; 
+    }
+    :hover {
+        color: white;
+        background-color: $primarycolor;
+        border-radius: 50%;
+    }
+}
+
+.fab {
+    color: #404040; 
+}
+
+// .header__extra {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .header__extra-time-work {
+//     font-size: 15px;
+//     font-weight: 600;
+//     color: #404040;
+//     margin-right: 26px;
+   
+// }
+
+// .header__extra-phone {
+//     height: 46px;
+//     border-radius: 20px;
+//     background: #57ccc3;
+//     padding-left: 40px;
+//     padding-right: 36px;
+//     line-height: 46px;
+//     font-size: 14px;
+//     font-weight: 600;
+//     color: #fff;
+//     margin-right: -40px;
+// }
+
+
+
+

@@ -1,0 +1,67 @@
+.extra {
+    background-image: url(/css/img/extra.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+.extra__content {
+    background-color: white;
+    width: 393px;
+    height: 550px;
+    box-shadow: 0 25px 38px rgba(0,0,0,.2);
+    margin-top: 60px;
+    padding-top: 74px;
+    padding-left: 46px;
+    padding-right: 30px;
+    padding-bottom: 63px;
+}
+
+.extra__container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.extra__discount-item {
+    display: flex;
+    font-size: 60px;
+    font-weight: 700;
+    color: #6bdbd2;
+    line-height: .75;
+    span {
+        display: inline-block;
+        font-size: 36px;
+        font-weight: 400;
+        vertical-align: super;
+    }
+}
+
+.extra__discount-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #979797;
+    line-height: .75;
+    padding-top: 30px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.extra__title {
+    font-size: 72px;
+    font-weight: 600;
+    color: #404040;
+    line-height: 1.11;
+    margin-top: 16px;
+}
+
+.extra__text {
+    font-family: montserrat,sans-serif;
+    font-size: 14px;
+    line-height: 2.14;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 20px;
+}
