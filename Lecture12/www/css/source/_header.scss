@@ -14,17 +14,7 @@
     height: 117px;
     padding-left: 100px;
     padding-right: 102px;
-}
-
-.header__block-id {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    padding-left: 100px;
-    padding-right: 102px;
-    font-family: $fonttext;
-    background-color: red;
+    transition: 0.3s;
 }
 
 .header__block-logo-subtitle {

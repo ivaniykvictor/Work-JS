@@ -1,11 +1,9 @@
-const headerBlock = document.getElementById('headerBlock');
+window.onscroll = function() {scrollFunction()};
 
-headerBlock.addEventListener ('scroll', function (){
-    const headerBlockElement = document.getElementById('headerBlock')
-    headerBlockElement.className = 'header__block-id'
-});
-    
-
-
-
-    
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("headerBlock").style.height = "75px";
+  } else {
+    document.getElementById("headerBlock").style.height = "117px";
+  }
+};
