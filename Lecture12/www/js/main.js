@@ -6,4 +6,6 @@ function scrollFunction() {
   } else {
     document.getElementById("headerBlock").style.height = "117px";
   }
+  
 };
+

@@ -95,12 +95,21 @@
     font-family: $fonttext;
     -webkit-appearance: none;
     font-style: italic;
+    
 }
 
    
 .appointment__intro-input:hover {
     border: solid 2px $primarycolor;
     text-decoration: none;
+}
+
+.appointment__intro-input::-webkit-input-placeholder{
+    color: #a09f9f;
+}
+
+.intro__select{
+    color: #a09f9f;
 }
 
 

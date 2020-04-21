@@ -393,6 +393,14 @@ a:hover {
   text-decoration: none;
 }
 
+.appointment__intro-input::-webkit-input-placeholder {
+  color: #a09f9f;
+}
+
+.intro__select {
+  color: #a09f9f;
+}
+
 .advantages {
   background-color: #eff3f7;
 }
@@ -650,6 +658,9 @@ a:hover {
 
 .subscribe__form-input::-webkit-input-placeholder {
   color: white;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .footer {
