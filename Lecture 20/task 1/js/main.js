@@ -28,12 +28,12 @@ calculateButton.addEventListener("click", function () {
             break
     };
     const currencyValue = document.getElementById("currencyValue");
-    currencyValue.innerHTML = currencyCours + currencyElement + " за одиницю";
+    currencyValue.innerHTML = currencyCours + currencyElement + " за одиницю євро";
     const amountElement = document.getElementById('amount');
     const amount = (amountElement.value);
     let suma = currencyCours * amount;
     const resultElement = document.getElementById("result");
-    resultElement.innerHTML = "за " + amount + " одиниць валюти  ви отримаєте " + suma + currencyElement;
+    resultElement.innerHTML = "за " +  amount + " одиниць євро  ви отримаєте " +  suma + currencyElement;
 });
 
 
