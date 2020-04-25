@@ -6,6 +6,18 @@ function scrollFunction() {
   } else {
     document.getElementById("headerBlock").style.height = "117px";
   }
-  
 };
+
+const adaptiveMenu = document.getElementById('adaptiveMenu');
+
+adaptiveMenu.addEventListener('click', function() {
+  document.getElementById('menuActive').classList.add("active");
+});
+
+const menuClose = document.getElementById('menuClose');
+
+menuClose.addEventListener('click', function() {
+  document.getElementById('menuActive').classList.remove("active");
+});
+
 
