@@ -17,6 +17,10 @@
     transition: 0.3s;
 }
 
+.header__block-small {
+    height: 75px;
+}
+
 .header__block-logo-subtitle {
     color: #353535;
     font-size: 30px;
@@ -265,7 +269,7 @@
 }
 
 @media screen and (max-width: 1220px) {
-    .button--red {
+    .button--red-header {
         display: none;
     }
   }

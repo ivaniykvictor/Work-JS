@@ -29,16 +29,19 @@
     color: #969696;
     font-size: 12px;
     font-weight: 500;
+    font-family: $fonttext;
 }
 
 .footer__about-text {
     color: #868686;
     line-height: 1.5;
     margin-top: 45px;
+    font-family: $fonttext;
 }
 
 .footer__contact {
     padding-top: 20px;
+    font-family: $fonttext;
 }
 
 .footer__title {
@@ -46,12 +49,14 @@
     font-weight: 300;
     color: #fff;
     letter-spacing: 2px;
+    font-family: $fonttext;
 }
 
 .footer__list {
     margin-top: 44px;
     list-style: none;
     margin-left: -40px;
+    font-family: $fonttext;
     
     li {
         font-size: 15px;
@@ -63,6 +68,7 @@
 
 .footer__location {
     padding-top: 20px;
+    font-family: $fonttext;
 }
 
 .location__list {
@@ -93,20 +99,27 @@
     padding-top: 20px;
     padding-bottom: 40px;
     border: solid 2px #4d5157;
+    font-family: $fonttext;
 }
 
 .opening__list {
     margin-top: 44px;
-    list-style: none;
-    margin-left: -40px;
-    li {
-        display: flex;
-        margin-bottom: 9px;
-        color: #878787;
-
-    }
-    .opening__list-time {
-        margin-left: auto;
-    }
+ 
+   
 }
 
+.opening__list-day{
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+
+.opening__list-time {
+    color: #868686;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}

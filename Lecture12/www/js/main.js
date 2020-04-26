@@ -7,10 +7,9 @@
   function scrollFunction() {
     const headerBlockElement = document.getElementById("headerBlock");
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      // try to avoid inline styling as much as possible, rewrite it to add remove classes
-      headerBlockElement.style.height = "75px";
+      headerBlockElement.classList.add("header__block-small");
     } else {
-      headerBlockElement.style.height = "117px";
+      headerBlockElement.classList.remove("header__block-small");
     }
   };
   

@@ -22,6 +22,30 @@
   color: #fd556d;
 }
 
+.button--red-header {
+  display: inline-block;
+  background-color: #fd556d;
+  height: 46px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 42px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button--red-header:hover {
+  background-color: transparent;
+  border-color: #fd556d;
+  color: #fd556d;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -114,6 +138,10 @@ a:hover {
   padding-right: 102px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.header__block-small {
+  height: 75px;
 }
 
 .header__block-logo-subtitle {
@@ -391,7 +419,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1220px) {
-  .button--red {
+  .button--red-header {
     display: none;
   }
 }
@@ -425,6 +453,10 @@ a:hover {
   padding-top: 250px;
 }
 
+.banner__content {
+  max-width: 550px;
+}
+
 .banner__static {
   color: #57ccc3;
   font-size: 30px;
@@ -456,6 +488,18 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .banner__content {
+    max-width: 100%;
+  }
+  .banner__static {
+    font-size: 24px;
+  }
+  .banner__title {
+    font-size: 48px;
+  }
 }
 
 .appointment {
@@ -684,11 +728,21 @@ a:hover {
   padding-bottom: 46px;
 }
 
+.phone__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .phone__title {
   color: white;
   font-size: 36px;
   font-weight: 600;
   letter-spacing: 2px;
+  font-family: montserrat, sans-serif;
 }
 
 .phone__text {
@@ -696,12 +750,13 @@ a:hover {
   font-weight: 400;
   color: white;
   letter-spacing: 1px;
+  font-family: montserrat, sans-serif;
 }
 
 .phone__number {
   height: 59px;
-  padding-left: 24px;
-  padding-right: 25px;
+  width: 340px;
+  margin-top: 8px;
   text-align: center;
   font-size: 30px;
   font-weight: 500;
@@ -709,6 +764,29 @@ a:hover {
   background-color: #ee4860;
   border-radius: 19px;
   line-height: 59px;
+  font-family: montserrat, sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .phone__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .phone__number {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .phone__title {
+    font-size: 30px;
+  }
+  .phone__number {
+    font-size: 24px;
+    width: 250px;
+  }
 }
 
 .services {
@@ -821,7 +899,6 @@ a:hover {
   padding-left: 34px;
   outline: none;
   background-color: transparent;
-  -webkit-appearance: none;
 }
 
 .subscribe__form-input::-webkit-input-placeholder {
@@ -829,6 +906,29 @@ a:hover {
   font-size: 14px;
   font-style: italic;
   font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+  .subscribe__form-container {
+    margin-left: -150px;
+    margin-right: -150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subscribe__form-input {
+    height: 40px;
+  }
+  .button--red-subscribe {
+    width: 142px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .subscribe__form-container {
+    margin-left: -120px;
+    margin-right: -120px;
+  }
 }
 
 .footer {
@@ -862,16 +962,19 @@ a:hover {
   color: #969696;
   font-size: 12px;
   font-weight: 500;
+  font-family: montserrat, sans-serif;
 }
 
 .footer__about-text {
   color: #868686;
   line-height: 1.5;
   margin-top: 45px;
+  font-family: montserrat, sans-serif;
 }
 
 .footer__contact {
   padding-top: 20px;
+  font-family: montserrat, sans-serif;
 }
 
 .footer__title {
@@ -879,12 +982,14 @@ a:hover {
   font-weight: 300;
   color: #fff;
   letter-spacing: 2px;
+  font-family: montserrat, sans-serif;
 }
 
 .footer__list {
   margin-top: 44px;
   list-style: none;
   margin-left: -40px;
+  font-family: montserrat, sans-serif;
 }
 
 .footer__list li {
@@ -896,6 +1001,7 @@ a:hover {
 
 .footer__location {
   padding-top: 20px;
+  font-family: montserrat, sans-serif;
 }
 
 .location__list {
@@ -929,24 +1035,26 @@ a:hover {
   padding-top: 20px;
   padding-bottom: 40px;
   border: solid 2px #4d5157;
+  font-family: montserrat, sans-serif;
 }
 
 .opening__list {
   margin-top: 44px;
-  list-style: none;
-  margin-left: -40px;
 }
 
-.opening__list li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 9px;
-  color: #878787;
+.opening__list-day {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
-.opening__list .opening__list-time {
-  margin-left: auto;
+.opening__list-time {
+  color: #868686;
+  padding-left: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
 .extra {
