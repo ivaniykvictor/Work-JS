@@ -1,7 +1,7 @@
-(function(){
+(function() {
 
   window.onscroll = function() {
-    scrollFunction()
+    scrollFunction();
   };
   
   function scrollFunction() {
@@ -11,7 +11,7 @@
     } else {
       headerBlockElement.classList.remove("header__block-small");
     }
-  };
+  }
   
   const menuActiveElement = document.getElementById('menuActive');
   
@@ -25,6 +25,4 @@
     menuActiveElement.classList.remove("active");
   });
 
-})()
-  
-
+})();
