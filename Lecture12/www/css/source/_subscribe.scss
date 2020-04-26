@@ -30,7 +30,6 @@
     padding-left: 34px;
     outline: none;
     background-color: transparent;
-    -webkit-appearance: none;
 }
 
 .subscribe__form-input::-webkit-input-placeholder{
@@ -40,3 +39,31 @@
     font-weight: 400;
 }
 
+
+@media screen and (max-width: 991px) {
+    .subscribe__form-container {
+        margin-left: -150px;
+        margin-right: -150px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+    .subscribe__form-input {
+        height: 40px;
+    }
+    
+    .button--red-subscribe{
+        width: 142px;
+        height: 40px;
+        font-size: 12px; 
+        text-align: center;
+    }
+
+    .subscribe__form-container {
+        margin-left: -120px;
+        margin-right: -120px;
+    }
+
+}
