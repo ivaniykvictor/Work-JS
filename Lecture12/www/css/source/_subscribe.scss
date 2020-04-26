@@ -1,5 +1,5 @@
 .subscribe {
-    background-image: url(/css/img/newsletter.jpg);
+    background-image: url(../../img/newsletter.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -39,15 +39,12 @@
     font-weight: 400;
 }
 
-
 @media screen and (max-width: 991px) {
     .subscribe__form-container {
         margin-left: -150px;
         margin-right: -150px;
     }
 }
-
-
 
 @media screen and (max-width: 576px){
     .subscribe__form-input {
